@@ -1,0 +1,59 @@
+.header {
+  color: #000;
+  margin: 10px auto;
+}
+.container {
+  padding: 0 5rem;
+  display: flex;
+  margin: 0 auto;
+  width: 1328px;
+  height: 60px;
+  justify-content: space-between;
+  position: relative;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #d7dde9;
+
+  div:first-child {
+    display: flex;
+    align-items: center;
+  }
+  div:last-child {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 16px;
+      line-height: 19.36px;
+      letter-spacing: -2%;
+      font-weight: 400;
+      color: #0000008a;
+    }
+  }
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.04px;
+    letter-spacing: -2%;
+  }
+}
+
+@media (max-width: 1200px) {
+  // Para tablets maiores e laptops pequenos
+  .container {
+    width: 390px;
+    justify-content: center;
+    height: 114px;
+    flex-direction: column;
+    margin: 7px;
+    padding: 0px 0px 24px 0px;
+    top: 24px;
+    left: 24px;
+    gap: 8px;
+    border: 0px 0px 1px 0px;
+  }
+}
